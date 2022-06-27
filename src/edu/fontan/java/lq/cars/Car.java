@@ -1,9 +1,9 @@
 package edu.fontan.java.lq.cars;
 
 public class Car {
- Integer speed;
- Integer gasoline;
- Boolean engineState;
+ private Integer speed;
+ private Integer gasoline;
+ private Boolean engineState;
  
  
  public Integer getSpeed() {
