@@ -5,6 +5,16 @@ public class Car {
  private Integer gasoline;
  private Boolean engineState;
  
+ /*
+  * private LocalDate manufactured;
+	
+	public int getAge() {
+		return Period.between(manufactured, LocalDate.now()).getYears();
+	}
+  */
+ 
+ 
+ 
  
  public Integer getSpeed() {
 	return speed;
