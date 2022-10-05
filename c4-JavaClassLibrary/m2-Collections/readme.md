@@ -102,10 +102,37 @@
   #### Iterable
   
   
-> Related to these, there's also `Iterable` from java.lang. `Collection` implements `Iterable `, `Map` does not
+> Related to these, there's also `Iterable` from java.lang. 
+> `Collection` implements `Iterable `, `Map` does not
 
 
 
 
-### Slide 6
+### Slide 6 : The Collection Interface
+
+* T
+* 
+* here are 3 Abstract classes than implements Collection. 
+  These are just abstract classes that group commom methods
+    * AbstractCollection
+      * AbstractList
+      * AbstractSet
+ * The ACTUAL implemtations are
+     * List
+        * ArrayList
+        * LinkedLIst
+        * Vector (reworked in Java5)
+     * Set
+       *  HashSet
+       *  LinkedHashSet
+       *  TreeSet
+  
+  * SubInterfaces of Colecction
+
+      * BeanContext
+      * BeanContextServices
+      * List
+      * Set
+      * SortedSet
+      etc..
 
