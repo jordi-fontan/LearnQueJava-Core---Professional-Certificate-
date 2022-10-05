@@ -26,3 +26,34 @@
    *  If not for generics, java would upcast everything to object, 
         *    forcing us to filter out undesired types,
         *    and downcast desired objects to their original types
+
+---
+
+ ### Slide 3
+ 
+ 1.  We'll use the `ArrayList` class, it stores objects in much the same way an array does.
+ 2.  In an  `ArrayList` each list is indexes by an `int`
+ 3.  We can add elements by specifiying a numeric position. If we don't specify it's put in the next available number.
+ 4. Use generics to specify what type of object is baing placed (improves safety).
+ 5. We'll pass the ArraList to a method that will set speeds to 50 to each car.
+ 
+ ```
+ 
+      public class MyCars  {
+          
+          public static void main (String[] args) {
+          
+          // create the ArraList to hold types of Cars
+          ArrayList<Car> a = new ArrayList<>();
+          
+          
+           a.add(new SUV());
+           a.add(new SportsCar());
+           a.add(new StationWagon());
+          
+          }
+      
+      }
+ 
+ 
+ ```
