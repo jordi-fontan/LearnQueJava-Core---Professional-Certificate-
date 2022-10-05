@@ -80,7 +80,7 @@
   - Generics guarantees that everything in the Colection is a Car so everything is **safe, short and clean**     
 
    
-   - Changed  `List` to   `List`  for better design
+   - Changed  `ArraryList` to   `List`  for better design
 ``` 
    private static void setAllSpeeds (List<Car> a) {
          for (Car car: a) car.setSpeed(55);
