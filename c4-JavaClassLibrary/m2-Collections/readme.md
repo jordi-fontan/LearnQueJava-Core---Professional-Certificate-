@@ -94,6 +94,7 @@
 ###Slide 5
 
 
-![image](https://user-images.githubusercontent.com/63612112/194017436-07797fdc-75d7-4a89-b7a7-e322a3e194ac.png)
 
+
+![Collections Framework](https://user-images.githubusercontent.com/63612112/194017934-0ee13b87-21b4-40cc-a0c4-f9db04548e59.png)
 
