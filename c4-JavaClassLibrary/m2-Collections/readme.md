@@ -105,14 +105,13 @@
 > Related to these, there's also `Iterable` from java.lang. 
 > `Collection` implements `Iterable `, `Map` does not
 
+---
 
 
 
 ### Slide 6 : The Collection Interface
 
-* T
-* 
-* here are 3 Abstract classes than implements Collection. 
+* There are 3 Abstract classes than implements Collection. 
   These are just abstract classes that group commom methods
     * AbstractCollection
       * AbstractList
