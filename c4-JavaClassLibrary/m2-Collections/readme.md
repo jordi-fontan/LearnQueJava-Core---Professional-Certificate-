@@ -44,7 +44,8 @@
           public static void main (String[] args) {
           
           // create the ArraList to hold types of Cars
-          ArrayList<Car> a = new ArrayList<>();
+          // Notice the rerefence type is the most genaral INTERFACE
+          List<Car> a = new ArrayList<>();
           
           
            a.add(new SUV());
@@ -77,3 +78,12 @@
       ```   a.forEach(car->setSpeed(55)) ``` 
       
   - Generics guarantees that everything in the Colection is a Car so everything is **safe, short and clean**     
+
+   
+   - Changed  `List` to   `List`  for better design
+``` 
+   private static void setAllSpeeds (List<Car> a) {
+         for (Car car: a) car.setSpeed(55);
+     }
+     
+  ```
