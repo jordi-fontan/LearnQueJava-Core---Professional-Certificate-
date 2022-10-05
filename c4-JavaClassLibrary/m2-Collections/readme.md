@@ -91,10 +91,21 @@
   ```
 ---
 
-###Slide 5
+### Slide 5
 
 
 
 
 ![Collections Framework](https://user-images.githubusercontent.com/63612112/194017934-0ee13b87-21b4-40cc-a0c4-f9db04548e59.png)
+
+
+  #### Iterable
+  
+  
+> Related to these, there's also `Iterable` from java.lang. `Collection` implements `Iterable `, `Map` does not
+
+
+
+
+### Slide 6
 
