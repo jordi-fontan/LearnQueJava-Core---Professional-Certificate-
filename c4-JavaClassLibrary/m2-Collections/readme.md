@@ -74,16 +74,26 @@
   ```
   
   > Java 8 added a default `ForEach` merthod to the  `Iterable` Interface.
-  >>  Example: 
+
+   >>  Example: 
       ```   a.forEach(car->setSpeed(55)) ``` 
       
   - Generics guarantees that everything in the Colection is a Car so everything is **safe, short and clean**     
 
    
-   - Changed  `ArraryList` to   `List`  for better design
+   >> Changed  `ArraryList` to   `List`  for better design
+
 ``` 
    private static void setAllSpeeds (List<Car> a) {
          for (Car car: a) car.setSpeed(55);
      }
      
   ```
+---
+
+###Slide 5
+
+
+![image](https://user-images.githubusercontent.com/63612112/194017436-07797fdc-75d7-4a89-b7a7-e322a3e194ac.png)
+
+
