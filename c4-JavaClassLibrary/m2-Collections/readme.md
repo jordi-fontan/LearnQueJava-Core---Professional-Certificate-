@@ -57,3 +57,23 @@
  
  
  ```
+
+---
+
+ ### Slide 4 
+ 
+ -  we can pass the `ArrayList` to the  setAllSpeeds() method.
+ -  Notice the for-each style to access the objects 
+
+``` 
+   private static void setAllSpeeds (ArrayList<Car> a) {
+         for (Car car: a) car.setSpeed(55);
+     }
+     
+  ```
+  
+  > Java 8 added a default `ForEach` merthod to the  `Iterable` Interface.
+  >>  Example: 
+      ```   a.forEach(car->setSpeed(55)) ``` 
+      
+  - Generics guarantees that everything in the Colection is a Car so everything is **safe, short and clean**     
