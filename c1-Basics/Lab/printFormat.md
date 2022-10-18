@@ -37,19 +37,19 @@ The printf and format methods are overloaded. Each has a version with the follow
 public PrintStream format(Locale l, String format, Object... args)
 
 To print numbers in the French system (where a comma is used in place of the decimal place in the English representation of floating point numbers), for example, you would use:
-
+```
 System.out.format(Locale.FRANCE,
     "The value of the float " + "variable is %f, while the " +
     "value of the integer variable " + "is %d, and the string is %s%n", 
     floatVar, intVar, stringVar); 
+```
 
 ### An Example
 
 The following table lists some of the converters and flags that are used in the sample program, TestFormat.java, that follows the table.
 
 | Converters  | Flags   | Explanation |  
-|-----|-----|----|---|---|
-
+|-----|-----|----|
 | d | | A decimal integer. | 
 | f |  | 	A float. |   
 | n |  | A new line character appropriate to the platform running the application. You should always use %n, rather than \n. |  
